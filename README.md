@@ -17,7 +17,7 @@ Group members:
   * Leydi https://github.comm//leidyvi 
   * Natalia https://github.com/Nataliaplm  
 ***
-### STACKS: HTML5 y CSS3
+### STACKS: HTML5 , CSS3 , BOOTSTRAP5
 ***
 Figma Screenshots:
 ![Final Main](https://user-images.githubusercontent.com/116545731/200367343-c956b0c4-c503-413f-a97c-126437b5f58b.jpg)
