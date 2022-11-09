@@ -7,7 +7,7 @@
 
 body {
     margin: 0 auto;
-    max-width: 1200px; /*Ancho máximo que soporta el contenedor principal y que coincide con el ancho de la web*/
+    max-width: 100%; /*Ancho máximo que soporta el contenedor principal y que coincide con el ancho de la web*/
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     min-height: 100%; /*Evita que la altura mínima de los elementos esté por debajo del 100%*/
     color:#333;
@@ -34,6 +34,11 @@ header {
     position: relative;
     padding: 10px 0px;
     padding-left: 10px;
+}
+
+p {
+    color: black;
+    margin: 30px;
 }
 
 .links a {
