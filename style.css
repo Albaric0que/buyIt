@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #cfa9b281;
+    width: 100%;
+    color: #8c3c4f;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+footer {
+    background-color: #cfa9b281;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+
+h1 {
+    font-size: x-large;
+    -webkit-text-stroke: 2px black;
+    padding-left: 5%;    
+}
+
+p {
+    color: black;
+    margin: 30px;
+}
+
+figcaption {
+    padding-top: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    display: flex;
+    justify-content:space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 10px;
+}
+
+.logo {
+    object-fit:cover;
+    max-width: 180px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -ms-flex-align: center;
+    position: relative;
+    padding: 10px 0px;
+    padding-left: 10px;
+
+}
+
+.videoHome {
+    text-align: center;
+    max-width: 1500px;
+    width: 100%;
+    padding: 30px 2%;
+}
+
+.links a {
+    float: left;
+    color: black;
+    text-align: center;
+    justify-content: flex-end;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.linkedImages {
+    display: flex;
+    flex-flow: wrap;
+    justify-content:center;
+}
+
+@media (min-width: 200px) {
+.linkedImages img {
+    max-width: 400px;
+    width: 95%;
+
+}
+}
+
+/*no entiendo por qué con figure solo coge la primera foto
+.grid figure {
+min-width: 300px;
+max-width: 30%;
+}
+
+.grid {
+    min-width: 300px;
+    max-width: 30%;
+    }
+    */
