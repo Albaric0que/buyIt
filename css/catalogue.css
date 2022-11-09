@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 body {
     margin: 0 auto;
     max-width: 1200px; /*Ancho máximo que soporta el contenedor principal y que coincide con el ancho de la web*/
